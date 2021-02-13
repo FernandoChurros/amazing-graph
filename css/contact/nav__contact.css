@@ -1,0 +1,16 @@
+.nav__contact {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	font-size: 1.5rem;
+	margin: 5rem 0 0;
+}
+
+.contact__item {
+	color: #DE5423;
+	text-decoration: none;
+	margin: 0 0 3rem;
+}
+.contact__item:hover {
+	color: #EB1A2C;
+}

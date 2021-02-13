@@ -4,10 +4,7 @@
 	background-repeat: no-repeat;
 	background-position: 450px 20px;
 	display: block;
-	margin-top: 5rem;
-	margin-bottom: 0;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 5rem auto 0 auto;
 	width: 70rem;
 	height: 25rem;
 }
@@ -19,7 +16,7 @@
 
 .banner__subtitulo {
 	color: #766F68;
-	font-weight: thin;
+	font-weight: 300;
 	font-size: 2rem;
 	margin: 2rem 0;
 }
