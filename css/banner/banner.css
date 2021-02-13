@@ -1,0 +1,40 @@
+.banner {
+	background-image: url("../../assets/team.jpg");
+	background-size: 690px 400px;
+	background-repeat: no-repeat;
+	background-position: 450px 20px;
+	display: block;
+	margin-top: 5rem;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70rem;
+	height: 25rem;
+}
+
+.banner__titulo {
+	color: #766F68;
+	font-size: 5rem;
+}
+
+.banner__subtitulo {
+	color: #766F68;
+	font-weight: thin;
+	font-size: 2rem;
+	margin: 2rem 0;
+}
+
+.botao {
+	background-color: #DE5423;
+	border: none;
+	border-radius: 10px;
+	color: #FFF;
+	font-size: 1.5rem;
+	font-weight: bold;
+	padding: 1rem;
+	width: 22rem;
+}
+.botao:hover {
+	background-color: #E87425;
+	cursor: pointer;
+}

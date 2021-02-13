@@ -7,10 +7,11 @@
 }
 
 .header__logo {
-	color: #D2872C;
+	color: #DE5423;
 	font-size: 1.8rem;
 	font-weight: bold;
 }
+
 
 .nav__item {
 	color: #766F68;
@@ -20,4 +21,8 @@
 
 .nav__item:last-child {
 	margin-right: 0;
+}
+
+.nav__item:hover {
+	color: #DE5423;
 }
