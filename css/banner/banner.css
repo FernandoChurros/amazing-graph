@@ -1,12 +1,5 @@
 .banner {
 	background-image: url("../../assets/team.jpg");
-	background-size: 690px 400px;
-	background-repeat: no-repeat;
-	background-position: 450px 20px;
-	display: block;
-	margin: 5rem auto 0 auto;
-	width: 70rem;
-	height: 25rem;
 }
 
 .banner__titulo {
@@ -34,4 +27,51 @@
 .botao:hover {
 	background-color: #E87425;
 	cursor: pointer;
+}
+
+@media (max-width: 980px) {
+	.banner {
+		background-size: 400px 300px;
+		background-repeat: no-repeat;
+		background-position: center;
+		text-align: center;
+		width: 100vw;
+	}
+	.banner__titulo {
+		font-size: 3rem;
+	}
+	.teste {
+		position: relative;
+		top: 500px;
+		height: 100vh;
+	}
+}
+
+@media (max-width: 500px){
+	.header {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: margin: 2rem 2.5rem 0;
+	}
+}
+
+@media (min-width: 980px) {
+	.banner {
+		background-size: 490px 400px;
+		background-repeat: no-repeat;
+		background-position: 450px 20px;
+		display: block;
+		margin: 5rem auto 0 auto;
+		width: 90vw;
+		height: 100vh;
+	}
+	.banner__titulo {
+		font-size: 5rem;
+	}
+}
+@media (min-width: 1200px) {
+	.banner {
+		background-size: 690px 400px;
+	}
 }
